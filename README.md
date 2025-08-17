@@ -1,3 +1,6 @@
 # Big-Data-Project
 
 This report wraps up a thirteen-week project that started on May 20, 2025, where we tried to solve a real problem in New York City’s taxi system. We worked with 9.5 million taxi trip records from early 2024 to build models that could predict where taxis would be needed 30 minutes in advance. What we found was surprising - simple linear regression models worked better than fancy deep learning approaches, getting predictions right with an error of just 0.08 trips per hour. Our best model achieved an R-squared of 0.999, which basically means it could predict demand almost perfectly. If taxi drivers used our system during rush hour, passengers would wait about 1.1 minutes less for a ride, which adds up to 1,200 hours saved each year just in our test zones. We also figured out exactly how to roll this out in New York, starting with a small pilot program and eventually covering the whole city. The whole system would cost about $450,000 to set up but could generate nearly a million dollars in benefits in the first year alone.
+Packages needed are listed at the beginning of the model.ipynb. 
+
+
